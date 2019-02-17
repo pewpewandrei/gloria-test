@@ -1,11 +1,5 @@
     /* OVERALL COMMANDS START*/
-@font-face {
-    font-family: 'oxygen_monoregular';
-    src: url('oxygenmono-regular-webfont.woff2') format('woff2'),
-         url('oxygenmono-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 html {
     width: 100%;
     height: 100%;
@@ -53,28 +47,31 @@ body {
     /* TOP BAR STARTS*/
 
 #top-menu {
-    
-    width: 80%;
     height: 80px;
-    margin: 0 auto;
+    margin: 30px 50px;
     padding: 0;
-    line-height: 80px;
-   /* display: flex;
+    display: flex;
     align-items: center; 
-    background-color: rgba(150, 150, 150, 0.9); */
-    
 }
 
 .container-top {
-    line-height: 50px;
+    display: flex;
+    align-items: center;
     height: 100%;
+    width: 100%;
     
 } 
 
 .clogo {
-    display: flex;
-    align-items: center;
-    justify-items: flex-end;
+    background-image: url(logo/end-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    display: block;
+    float: right;
+    height: 100%;
+    margin-left: 100px;
+    width: 25%;
 }
 
 .main-menu-left {
@@ -329,7 +326,7 @@ body {
     align-items: center;
     width: 75%;
     height: 100px;
-    margin: 50px 150px;
+    margin: 50px 100px;
 }
 
 #container-instalari {
