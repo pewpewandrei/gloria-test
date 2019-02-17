@@ -375,5 +375,6 @@ body {
     width: 250px;
     background-color: whitesmoke;
     transition: 1s ease;
+    border: 4px solid navy;
 }
 
